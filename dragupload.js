@@ -135,8 +135,7 @@ async function handleDrop(event) {
   event.preventDefault();
   console.debug("Got handleDrop event:");
   console.debug(event);
-
-  console.log(game.packs);
+  
   const files = event.dataTransfer.files;
   console.debug("FileList is: ");
   console.debug(files);
